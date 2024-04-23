@@ -1,0 +1,37 @@
+.latest_reviews {
+    padding: 20px;
+}
+
+.latest_reviews .genre_dropdown {
+    margin-bottom: 20px;
+}
+
+.review_cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.latest_reviews .card {
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+    .latest_reviews .card {
+        width: calc(33.33% - 10px);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .latest_reviews .card {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .latest_reviews .card {
+        width: 100%;
+    }
+}

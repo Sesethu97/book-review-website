@@ -1,8 +1,9 @@
 .footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color: #ccc; 
     padding: 20px; 
     text-align: center; 
+    font-family: 'Jost', sans-serif;
 }

@@ -3,8 +3,9 @@ import './style.css';
 import logo from '../../images/logo.png';
 import { BiSolidSearch } from "react-icons/bi";
 import { MdFavorite } from "react-icons/md";
-import Landing from '../../pages/landing';
+import Home from '../../pages/home';
 import About from '../../pages/about';
+import { Link } from 'react-router-dom';
 
 const TopNav = () => {
     return(
@@ -14,21 +15,18 @@ const TopNav = () => {
                     <img src={logo} alt='Logo' className='logo' />
                 </div>
                 <ul>
-                    <li><a href='#/Home'>Home</a></li>
-                    <li><a href='#/About'>About</a></li>
-                    <li><a href='#/Lastest Review'>Featured</a></li>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href='/'>Top Rated</a></li>
+                    <li><Link to="/latest">Book Reviews</Link></li> 
                     <li><a href='#/Blog'>Blog</a></li>
-                    <li><a href='#/Sign In'>Sign In</a></li>
+                   
                 </ul>
                 <div className='search_icon'>
                     <BiSolidSearch />
                     <MdFavorite />
                 </div>
             </nav>
-            <div className="section-wrapper">
-                <Landing/>
-                <About/>
-            </div>
+        
         </section>
     )
 }

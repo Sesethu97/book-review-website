@@ -1,0 +1,62 @@
+/* style.css */
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+}
+
+.main .book_body h1 {
+    font-family: 'Lucida Sans';
+    position: relative;
+    font-size: 55px;
+    top: 10px;
+    bottom: 10px;
+    left: 25px;
+}
+
+.main .book_body h2 {
+    padding-top: 20px;
+    font-size: 25px;
+    color: #142850;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.main .book_body p {
+    width: 650px;
+    text-align: center;
+    line-height: 22px;
+    position: relative;
+    left: 150px;
+    top: 12px;
+}
+
+.main .image .image {
+    width: 700px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main .book_btn {
+    background-color: aqua;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: 70px; 
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.book_about {
+    margin-top: 250px; 
+}
+
+.book_reviews {
+    margin-top: 100px; 
+    margin-bottom: 200px;
+    
+}
