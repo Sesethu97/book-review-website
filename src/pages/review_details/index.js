@@ -14,6 +14,7 @@ const ReviewDetails = () => {
             {review && ( 
                 <>
                     <p>Title: {review.title}</p>
+                    <p>{review.image}</p>
                     <p>Author: {review.author}</p>
                     <p>Content: {review.content}</p>
                 </>

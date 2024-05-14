@@ -3,20 +3,26 @@
 
 
 .card {
-    background-color: #f0f0f0;
+    background-color: #262627; 
+
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px; 
+    color: rgb(230, 221, 221);
+
 }
 
 .card h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    color: rgb(230, 221, 221);
+    
 }
 
 .card p {
     font-size: 16px;
     line-height: 1.5;
-    color: #928787;
+    color: rgb(230, 221, 221);
+
 }

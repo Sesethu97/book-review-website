@@ -50,13 +50,15 @@ section nav li {
 
 section nav li a {
     text-decoration: none;
-    color: #6d6868;
+    color: rgb(230, 221, 221);
+
     font-size: larger;
   
 }
 
 section nav li a:hover {
-    color: #6d6868;
+    color: rgb(230, 221, 221);
+
 }
 
 .search_icon svg,

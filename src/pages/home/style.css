@@ -6,6 +6,9 @@
     justify-content: space-around;
     position: relative;
     top: 40px;
+    
+
+
 }
 
 .main .book_body h1 {
@@ -15,13 +18,17 @@
     top: 10px;
     bottom: 10px;
     left: 25px;
+    color: rgb(230, 221, 221);
+
+    
 }
 
 .main .book_body h2 {
     padding-top: 20px;
     font-size: 25px;
-    color: #142850;
     font-family: 'Lucida Handwriting', cursive;
+    color: rgb(181, 170, 203);
+
 }
 
 .main .book_body p {
@@ -31,6 +38,8 @@
     position: relative;
     left: 150px;
     top: 12px;
+    color: rgb(230, 221, 221);
+
 }
 
 .main .image .image {
@@ -43,7 +52,8 @@
 .main .book_btn {
     background-color: aqua;
     padding: 10px 20px;
-    color: #fff;
+    color: rgb(230, 221, 221);
+
     text-decoration: none;
     position: absolute;
     bottom: 70px; 
@@ -58,5 +68,8 @@
 .book_reviews {
     margin-top: 100px; 
     margin-bottom: 200px;
+    background-color: #262627; 
+
+
     
 }
