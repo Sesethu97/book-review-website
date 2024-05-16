@@ -1,45 +1,49 @@
-.latest_reviews {
+.reviews {
     text-align: center;
-    padding-top: 30px;
-
 }
 
-.latest_reviews h1 {
+.reviews h1 {
+    font-weight: bold;
+    text-align: center;
     margin-bottom: 20px;
-    font-size: 40px;
-    color: #E4E4DE;
-
+    font-size: 1.5em; 
+    color: #1B1B1B;
 
 }
 
-.latest_reviews nav ul {
+
+.reviews nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
 
+
 }
 
-.latest_reviews nav ul li {
+.reviews nav ul li {
     margin-right: 10px;
+    
 }
 
-.latest_reviews nav ul li:last-child {
+.reviews nav ul li:last-child {
     margin-right: 0;
+    
 }
 
-.latest_reviews nav ul li button {
+.reviews nav ul li button {
     padding: 8px 16px;
+    font-size: 1.2em; 
     background-color: transparent;
-    color: rgb(230, 221, 221);
+    color: #E4E4DE;
     border: none;
     cursor: pointer;
     transition: color 0.3s;
 }
 
-.latest_reviews nav ul li button:hover {
-    color: #007bff;
+.reviews nav ul li button:hover {
+    color: #1B1B1B;
 }
 
 
@@ -50,26 +54,26 @@
     justify-content: space-between;
 }
 
-.latest_reviews .card {
+.reviews .card {
     width: calc(25% - 10px);
     margin-bottom: 20px;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 1200px) {
-    .latest_reviews .card {
+    .reviews .card {
         width: calc(33.33% - 10px);
     }
 }
 
 @media screen and (max-width: 900px) {
-    .latest_reviews .card {
+    .reviews .card {
         width: calc(50% - 10px);
     }
 }
 
 @media screen and (max-width: 600px) {
-    .latest_reviews .card {
+    .reviews .card {
         width: 100%;
     }
 }

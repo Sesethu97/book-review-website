@@ -13,7 +13,6 @@ const About = () => {
                 <p> At Readers Choice, we believe in the transformative power of literature. Our team of passionate readers and writers is dedicated to sharing our love for books and fostering a vibrant community of book enthusiasts.</p>
                  <p>From classic novels to contemporary bestsellers, we offer honest and thought-provoking reviews that aim to inform, entertain, and inspire readers of all backgrounds.</p>
                
-                <a href='#' className='about_btn'>Learn More</a>
             
             </div>
 

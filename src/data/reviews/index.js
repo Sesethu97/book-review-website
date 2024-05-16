@@ -28,7 +28,8 @@ When Sophie is offered the chance to move to France for work, she seizes the opp
 
 Pumkin must somehow find a way to raise the money for her French exam, so she can free herself from her household and reunite with her beloved aunt in France. In a moment of ingenuity, she turns her passion for baking into a true business. Making batches of sweet potato pudding, coconut drops and chocolate cakes, Pumkin develops a booming trade—but when her school and her mother find out what she’s up to, everything she’s worked so hard for may slip through her fingers. . . .`, 
         image: img1, 
-        genre: 'Fiction'
+        genre: 'Fiction',
+        rating: 4 
     },
     { 
         id: '2', 
@@ -37,7 +38,8 @@ Pumkin must somehow find a way to raise the money for her French exam, so she ca
         content: `Erebus Resort, occupying a magnificent, hundred-thousand-acre valley deep in the Colorado Rockies, offers guests the experience of viewing woolly mammoths, Irish Elk, and giant ground sloths in their native habitat, brought back from extinction through the magic of genetic manipulation. When a billionaire's son and his new wife are kidnapped and murdered in the Erebus back country by what is assumed to be a gang of eco-terrorists, Colorado Bureau of Investigation Agent Frances Cash partners with county sheriff James Colcord to track down the perpetrators.
 As killings mount and the valley is evacuated, Cash and Colcord must confront an ancient, intelligent, and malevolent presence at Erebus, bent not on resurrection—but extinction.`, 
         image: img2,
-        genre: 'Fiction'
+        genre: 'Fiction',
+        rating: 2
     },
     { 
         id: '3', 
@@ -45,7 +47,8 @@ As killings mount and the valley is evacuated, Cash and Colcord must confront an
         author: 'Joey Hartstone', 
         content: 'Joey Hartstone', 
         image: img3,
-        genre: 'Crime'
+        genre: 'Crime',
+        rating: 5
     },
     { 
         id: '4', 
@@ -53,7 +56,8 @@ As killings mount and the valley is evacuated, Cash and Colcord must confront an
         author: 'Charlotte Philby', 
         content: 'Consectetur adipiscing elit.', 
         image: img4, 
-        genre: 'Crime'
+        genre: 'Crime',
+        rating: 4 
     },
     { 
         id: '5', 
@@ -65,7 +69,8 @@ Known for her contemporary romances, Holiday travels back to Regency England for
     
 A breezy and amusing love story that showcases the importance of friendship.`, 
         image: img5, 
-        genre: 'Romance'
+        genre: 'Romance',
+        rating: 5
     },
     { 
         id: '6', 
@@ -77,7 +82,8 @@ Cora Dove and her sisters were raised by their mother, an actress who received o
     
 A delightful start to a new series, sure to please St. George’s existing fans and garner new ones.`, 
         image: img6, 
-        genre: 'Romance'
+        genre: 'Romance',
+        rating: 1
     },
     { 
         id: '7', 
@@ -89,7 +95,8 @@ It’s quite a weighty book, coming in at 545 pages, and requires deep focus and
     
 It’s important to note that the story deals with themes that may be triggering for readers, including, but not limited to: gender-based violence, child abuse, racial slurs, and violence. We advise doing some research before purchasing the book and to take care while reading it.`, 
         image:img11, 
-        genre: 'Fantasy'
+        genre: 'Fantasy',
+        rating: 3
     },
     { 
         id: '8', 
@@ -101,7 +108,8 @@ Originally published in 2016, the novel dramatically rose in popularity during t
     
 It’s easy to understand why Colleen Hoover’s standout novel has garnered so much interest and praise. It’s beautifully written and tackles difficult themes in a heartbreaking, but necessary, way. With this being said, it’s important to note that some elements of the story may be triggering for readers. So, we recommend doing some research before purchasing the book and, most importantly, take care of yourself when reading it.`, 
         image: img10, 
-        genre: 'Fantasy'
+        genre: 'Fantasy',
+        rating: 4 
     },
     { 
         id: '9', 
@@ -113,7 +121,8 @@ The story is largely told from the point of view of the book’s protagonist, a 
     
 While she’s only 17, Nora’s past is dark and moving; the daughter of a criminal, Nora becomes a pawn and protégé for her mother from a young age. Ultimately, however, she manages to pull the ultimate con – escaping her mother and the abusive mark she eventually fell for instead of pulling her usual tricks.`, 
         image:img9, 
-        genre: 'Thriller'
+        genre: 'Thriller',
+        rating: 5
     },
     { 
         id: '10', 
@@ -129,7 +138,8 @@ What’s more mystifying than the heavy-handed narrative is the fact that Charli
     
 Most frustratingly, the novel comes so close to the possibility of saying interesting things – but never makes the jump.`, 
         image: img8, 
-        genre: 'Thriller'
+        genre: 'Thriller',
+        rating: 4 
     },
     { 
         id: '11', 
@@ -139,7 +149,8 @@ Most frustratingly, the novel comes so close to the possibility of saying intere
 
 This sparkling memoir follows her journey through the Roaring Twenties, as she gets swept along by the forces of history. She quickly realises that with freedom, comes complications. As her family’s money runs out, she is forced to become a fashion model to survive, entering her into a whole new subculture – but does she have what it takes to survive?`, 
         image: img7, 
-        genre: 'Biography'
+        genre: 'Biography',
+        rating: 3
     }
 ];
 

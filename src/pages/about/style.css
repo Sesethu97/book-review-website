@@ -7,7 +7,7 @@
     justify-content: space-around;
     position: relative; 
     top: 60px;
-    color: rgb(230, 221, 221);
+    color: #1B1B1B;
 
 }
 
@@ -47,7 +47,7 @@
 .about_tag .about_btn {
     padding: 10px 20px;
     background-color: #089da1;
-    color: rgb(230, 221, 221);
+
 
     text-decoration: none;
     position: absolute;
