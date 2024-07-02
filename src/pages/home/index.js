@@ -22,11 +22,7 @@ const Home = () => {
                     <img src={books} className='image' alt="Books" />
                 </div>
             </div>
-            <div className="book_about">
-                <About />
-
-            </div> 
-
+        
             <div className="book_reviews">
                 <LatestReviews limit={4} />
             </div> 

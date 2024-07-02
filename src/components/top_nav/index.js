@@ -1,32 +1,25 @@
 import React from 'react';
 import './style.css';
-import logo from '../../images/logo.png';
-import { BiSolidSearch } from "react-icons/bi";
-import { MdFavorite } from "react-icons/md";
-
 import { Link } from 'react-router-dom';
+import { MenuBook } from '@mui/icons-material';
 
 const TopNav = () => {
-    return(
+    return (
         <section>
             <nav>
                 <div className='logo'>
-                    <img src={logo} alt='Logo' className='logo' />
+                    <Link to="/">
+                        <MenuBook style={{ cursor: 'pointer' }} /> 
+                    </Link>
                 </div>
                 <ul>
-                    <li><a href='/'>Home</a></li>                
-                    {/* <li><a href='/'>News & Articles</a></li> */}
                     <li><Link to="/latest">Book Reviews</Link></li> 
-                    {/* <li><a href='/blogs'>Blogs</a></li> */}
-                   
+                    <li><Link to="/top-rated">Top Rated Books</Link></li> 
+                    <li><Link to="/about">About</Link></li> 
                 </ul>
-                <div className='search_icon'>
-                    <BiSolidSearch />
-                    <MdFavorite />
-                </div>
             </nav>
-        
         </section>
-    )
+    );
 }
+
 export default TopNav;

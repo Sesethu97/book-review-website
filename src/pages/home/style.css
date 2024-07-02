@@ -6,6 +6,7 @@
     justify-content: space-around;
     position: relative;
     top: 40px;
+    margin: 20px;
     
 
 
@@ -13,8 +14,9 @@
 
 .main .book_body h1 {
     font-family: 'Lucida Sans';
+    flex-direction: row;
     position: relative;
-    font-size: 55px;
+    font-size: 45px;
     top: 10px;
     bottom: 10px;
     left: 25px;
@@ -26,6 +28,7 @@
 .main .book_body h2 {
     padding-top: 20px;
     font-size: 25px;
+    padding-left: 50px;
     font-family: 'Lucida Handwriting', cursive;
     color: rgb(161, 140, 204);
 
@@ -43,7 +46,7 @@
 }
 
 .main .image .image {
-    width: 700px;
+    width: 600px;
     height: 500px;
     border-radius: 50%;
     object-fit: cover;

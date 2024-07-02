@@ -1,3 +1,70 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    
+
+
+}
+
+.main .book_body h1 {
+    font-family: 'Lucida Sans';
+    position: relative;
+    font-size: 40px;
+    top: 10px;
+    bottom: 10px;
+    left: 25px;
+    color: #1B1B1B;
+
+    
+}
+
+.main .book_body h2 {
+    position: relative;
+    left: 45px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: 'Lucida Handwriting', cursive;
+    color: rgb(161, 140, 204);
+
+}
+
+.main .book_body p {
+    position: relative;
+    font-size: 15px;    
+    width: 550px;
+    line-height: 22px;
+    left: 25px;
+    top: 12px;
+    color: 1B1B1B;
+
+}
+
+.main .image .image {
+    width: 700px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main .book_btn {
+    background-color: aqua;
+    padding: 10px 20px;
+    color: rgb(230, 221, 221);
+
+    text-decoration: none;
+    position: absolute;
+    bottom: 70px; 
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
 .about {
     width: 100%;
     height: auto;
