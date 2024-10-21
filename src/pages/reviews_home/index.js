@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './style.css';
-import ReviewCard from '../../components/review_card'; 
+import ReviewCardHome from '../../components/review_card_home'; 
 import reviews from '../../data/reviews';
 import Footer from '../../components/footer';
 
-const Reviews = () => {
+const ReviewsHome = () => {
     const [selectedGenre, setSelectedGenre] = useState('All');
 
     const handleGenreChange = (genre) => {
@@ -31,7 +31,7 @@ const Reviews = () => {
 
             <div className='review_cards_container'>
                 {filteredReviews.map((review, index) => (
-                    <ReviewCard key={index} {...review} />
+                    <ReviewCardHome key={index} {...review} />
                 ))}
             </div>
             <div>
@@ -41,4 +41,4 @@ const Reviews = () => {
     );
 };
 
-export default Reviews;
+export default ReviewsHome;

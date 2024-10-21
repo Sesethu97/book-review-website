@@ -1,18 +1,17 @@
-.latest_reviews {
+.latest_reviews_home {
     text-align: center;
     padding-top: 30px;
 
 }
 
-.latest_reviews h1 {
+.latest_reviews_home h1 {
     margin-bottom: 20px;
     font-size: 40px;
-    color: #E4E4DE;
-
+    color: rgb(161, 140, 204);
 
 }
 
-.latest_reviews nav ul {
+.latest_reviews_home nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -21,15 +20,15 @@
 
 }
 
-.latest_reviews nav ul li {
+.latest_reviews_home nav ul li {
     margin-right: 10px;
 }
 
-.latest_reviews nav ul li:last-child {
+.latest_reviews_home nav ul li:last-child {
     margin-right: 0;
 }
 
-.latest_reviews nav ul li button {
+.latest_reviews_home nav ul li button {
     padding: 8px 16px;
     background-color: transparent;
     color: rgb(230, 221, 221);
@@ -38,38 +37,34 @@
     transition: color 0.3s;
 }
 
-.latest_reviews nav ul li button:hover {
-    color: #007bff;
-}
 
 
 
-.review_cards_container {
+.review_cards_container_home {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+    border-bottom: 2px solid #E4E4DE;}
 
-.latest_reviews .card {
+.latest_reviews_home .card {
     width: calc(25% - 10px);
-    margin-bottom: 20px;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 1200px) {
-    .latest_reviews .card {
+    .latest_reviews_home .card {
         width: calc(33.33% - 10px);
     }
 }
 
 @media screen and (max-width: 900px) {
-    .latest_reviews .card {
+    .latest_reviews_home .card {
         width: calc(50% - 10px);
     }
 }
 
 @media screen and (max-width: 600px) {
-    .latest_reviews .card {
+    .latest_reviews_home .card {
         width: 100%;
     }
 }

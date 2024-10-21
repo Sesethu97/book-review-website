@@ -2,20 +2,19 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
-    border-bottom: 2px solid #b3b317;
-    border-top: 2px solid #E4E4DE;
-
+    
+    
     width: 100%;
 }
 
 .card {
     border-left: 2px solid #E4E4DE;
-
     padding-top: 10px;
     margin: 0;
     background: none;
     border-radius: 0;
     color: #1B1B1B;
+
 }
 
 .card:nth-child(3n) {
@@ -25,8 +24,7 @@
 .card-container::after {
     content: '';
     grid-column: 1 / -1;
-    border-bottom: 2px solid #E4E4DE;
-    border-top: 2px solid #E4E4DE;
+
 
 }
 
@@ -59,4 +57,7 @@
     color: #1B1B1B;
     text-decoration: none;
     border-radius: 4px;
+}
+.button{
+    padding-bottom: 15px;
 }
